@@ -21,7 +21,6 @@ exports.VehicleDataGenerator = async (req, res, next) => {
     vehicle.charge = Math.floor(Math.random() * 100); // Random charge between 0 and 99
     vehicle.distance = Math.floor(Math.random() * 100); // Increment distance by a random value between 0 and 9
     vehicle.canBeTravelled = vehicle.charge;
-    // You can add similar logic for other properties as needed
   };
 
   // Generate random data initially
